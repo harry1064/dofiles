@@ -1,0 +1,10 @@
+" Telling vim to highlight syntax based on file type
+filetype on
+syntax on
+colorscheme Tomorrow-Night
+" Setting font
+set guifont=Menlo\ Regular:h18
+" Add a colored column at 90 to avoid going to far to the right
+set colorcolumn=90
+" Setting number for lines
+set number
