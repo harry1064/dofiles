@@ -8,3 +8,8 @@ set guifont=Menlo\ Regular:h18
 set colorcolumn=90
 " Setting number for lines
 set number
+" define mapleader to space
+let mapleader=" "
+" Mapping to source the changes in vimrc without restarting the vim
+map <leader>s :source ~/.vim/vimrc<CR>
+
