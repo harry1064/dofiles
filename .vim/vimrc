@@ -1,3 +1,5 @@
+let vim_markdown_preview_github=1
+let vim_markdown_preview_toggle=3
 execute pathogen#infect()
 "Telling vim to highlight syntax based on file type
 filetype on

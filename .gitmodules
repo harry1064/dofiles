@@ -1,0 +1,9 @@
+[submodule ".vim/.vim/bundle/vim-markdown-preview"]
+	path = .vim/.vim/bundle/vim-markdown-preview
+	url = https://github.com/JamshedVesuna/vim-markdown-preview.git
+[submodule ".vim/.vim/bundle/ale"]
+	path = .vim/.vim/bundle/ale
+	url = https://github.com/w0rp/ale.git
+[submodule ".vim/bundle/ale"]
+	path = .vim/bundle/ale
+	url = https://github.com/w0rp/ale.git
