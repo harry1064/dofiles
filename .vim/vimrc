@@ -1,7 +1,8 @@
-" Telling vim to highlight syntax based on file type
+execute pathogen#infect()
+"Telling vim to highlight syntax based on file type
 filetype on
 syntax on
-colorscheme Tomorrow-Night
+colorscheme Tomorrow-Night-Eighties
 " Setting font
 set guifont=Menlo\ Regular:h18
 " Add a colored column at 90 to avoid going to far to the right
@@ -12,4 +13,22 @@ set number
 let mapleader=" "
 " Mapping to source the changes in vimrc without restarting the vim
 map <leader>s :source ~/.vim/vimrc<CR>
+" Smart defaults
+" Keep more info in memory
+set hidden
+set history=100
+" Indentation
+filetype indent on
+set nowrap
+set tabstop=2
 
+set shiftwidth=2
+set expandtab
+set smartindent
+set autoindent
+" Better Search
+" Highlight words when searching
+set hlsearch
+inoremap <silent> <Up> <ESC><Up>
+inoremap jj <ESC>
+inoremap <leader>q  <ESC>:wq<CR> 
